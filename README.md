@@ -19,14 +19,14 @@ The taxi drives the root from 0 to m (OUTBOUND) and subsequently from m to 0, pi
      (4) If the driver needs to stop at a particular branch to pick up or discharge passengers, it takes
          one minute to do so. 
      (5) After a person disembarks, that person cannot board the taxi again until: the taxi leaves and 
-         returns to that branch, unless: the taxi is idle (no Hail button was pushed and no one has told the driver where to take them next)     
-         right after that person disembarks
+         returns to that branch, unless: the taxi is idle (no Hail button was pushed and 
+         no one has told the driver where to take them next) right after that person disembarks.
 
 # Input
 
-The program requires you specify a filename to start the simulation.This consists of a file containing the number of people using this service, the number of branches on the route, and the work/travel patterns for each person.The filename will need to be inputted when running TaxiSimulation:
+The program requires you specify a filename to start the simulation.This consists of a file containing the number of people using this service, the number of branches on the route, and the work/travel patterns for each person.The filename will need to be inputed when running TaxiSimulation:
 
-    % java TaxiSimulaton
+    % java TaxiSimulation
     <filename>
   
 The file format is as follows:
