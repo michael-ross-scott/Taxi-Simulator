@@ -18,9 +18,9 @@ The taxi drives the root from 0 to m (OUTBOUND) and subsequently from m to 0, pi
      (3) The taxi takes two minutes to move from one branch to the next.
      (4) If the driver needs to stop at a particular branch to pick up or discharge passengers, it takes
          one minute to do so. 
-     (5) After a person disembarks, that person cannot board the taxi again until: the taxi leaves and returns to that branch, unless:
-          (1) the taxi is idle (no Hail button was pushed and no one has told the driver where to take them next) right after that person 
-              disembarks
+     (5) After a person disembarks, that person cannot board the taxi again until: the taxi leaves and 
+         returns to that branch, unless: the taxi is idle (no Hail button was pushed and no one has told the driver where to take them next)     
+         right after that person disembarks
 
 # Input
 
